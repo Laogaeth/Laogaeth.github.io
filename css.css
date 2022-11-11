@@ -264,13 +264,12 @@ section{
       margin-top:20vh ;
       font-size: 1.2em;
       text-align: center;
-      scroll-snap-align: start;
+      scroll-snap-align: center;
     
 }
 
 html{
   scroll-snap-type: y mandatory;
-   
   max-height: 100vh;
 }
 
