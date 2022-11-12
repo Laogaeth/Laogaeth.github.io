@@ -261,21 +261,7 @@ main{
   max-width: 7.5rem;
   border-radius: 50%;
 }
-section{
-  
-  margin-top:20vh ;
-      font-size: 1.2em;
-      text-align: center;
-      scroll-snap-align: center;
-  
 
-}
-
-html{
-  scroll-snap-type: y mandatory;
-  max-height: 100vh;
-  scroll-snap-points-y: repeat(2px);
-}
 .techStackBadge{
     margin-top: 100px ;
     width: 5rem; 
