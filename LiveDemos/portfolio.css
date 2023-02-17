@@ -139,6 +139,13 @@ section{
   background-color: #14171d;;
 }
 /*Cartoon*/
+.cartoon--speech--animate {
+  transition: transform 0.5s ease-out;
+}
+
+.cartoon--speech--animate.hidden {
+  transform: translateX(-100%);
+}
 .explanation{
   transform: rotate(45deg);
   margin-left:-100px ;
