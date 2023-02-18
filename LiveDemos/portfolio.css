@@ -118,11 +118,34 @@ main{
 .portfolioPreview{
   max-width: 100%;
   position:relative;
+  padding: 20px;
   
 }
-.img--container.hidden {
-  display: none;
+
+
+/* style the previous and next buttons */
+.slick-next {
+  border: none;
+  background-color: #222733;
+  color: #6FBF9A;
+  padding: 10px;
+  border-radius: 10%;
+  font-size: 16px;
+  line-height: 1;
+  position: absolute;
+  box-shadow: 1px 1px #6fbf9a6f;
+  transition: ease-in-out 0.5s;
+  right: 20px;
 }
+.slick-next:hover{
+  background-color: #6fbf9a6f;
+  color: #222733;
+  box-shadow: 1px 1px #6fbf9a6f;
+}
+.slick-prev{
+  display: none !important;
+}
+
 
 b {
   color: #6FBF9A;
@@ -212,4 +235,14 @@ a{
 a p{
   text-decoration: none;
   color: #6FBF9A;
+}
+
+.wrapper{
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+
+.previous{
+  margin-left: 5%;
 }
