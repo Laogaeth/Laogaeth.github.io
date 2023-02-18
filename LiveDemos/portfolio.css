@@ -118,6 +118,10 @@ main{
 .portfolioPreview{
   max-width: 100%;
   position:relative;
+  
+}
+.img--container.hidden {
+  display: none;
 }
 
 b {
