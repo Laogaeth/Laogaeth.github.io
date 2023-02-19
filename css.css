@@ -277,3 +277,7 @@ section{
   margin-top: 100px;
 }
                      
+.wrapper {
+  max-width: 2000px;
+  margin: 0 auto;
+}
